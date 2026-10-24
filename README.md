@@ -1,11 +1,11 @@
 # Luxe Era Salon – Multipage Website
 
-Pure HTML5 + CSS3 + JavaScript. No framework, no build step. Just double-click `erasalon.html`.
+Pure HTML5 + CSS3 + JavaScript. No framework, no build step. Just double-click `index.html`.
 
 ## Pages
 | File | Page |
 |---|---|
-| `erasalon.html` | Home (hero, about, services, before/after, products, insta glam, reviews, CTA) |
+| `index.html` | Home (hero, about, services, before/after, products, insta glam, reviews, CTA) |
 | `about.html` | About Us (story, stats, mission/values, journey timeline, team, before/after) |
 | `services.html` | 30 services in 5 categories (Hair, Skin & Facial, Nails & Spa, Bridal & Makeup, Men's Grooming), combo packages, how it works, FAQ |
 | `products.html` | 16 products with category filter, gift sets, how to order |
@@ -32,7 +32,7 @@ Edit timings in `js/main.js` (`HOURS` = open/close hour per weekday, `STEP` = sl
 2. **Business details** – use Find & Replace (Ctrl+Shift+F in VS Code) across the folder:
    - `Luxe Era Salon` → your salon name
    - `+91 98765 43210` and `tel:+919876543210` and `wa.me/919876543210` → your phone
-   - `hello@luxeerasalon.com` → your email
+   - `hello@luxeindex.com` → your email
    - `123, Main Market Road, Your City, Your State - 000000, India` → your address
    - Timings: edit the footer list and the Contact page table
 3. **Google Map** – in `contact.html` find `https://www.google.com/maps?q=...&output=embed` and replace the text after `q=` with your salon address (use `+` for spaces). Or paste Google Maps > Share > Embed a map > the iframe `src`.
@@ -51,7 +51,7 @@ All images are placeholders in `images/` (SVG). Replace with real photos:
 ## Folder structure
 ```
 luxe-era-salon/
-├── erasalon.html  about.html  services.html  products.html  contact.html
+├── index.html  about.html  services.html  products.html  contact.html
 ├── privacy-policy.html  terms-conditions.html
 ├── css/style.css      (all design, colors in :root variables)
 ├── js/config.js       (WhatsApp number)
