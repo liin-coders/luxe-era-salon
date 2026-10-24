@@ -32,13 +32,20 @@ body {
     background-color: #000;
     color: #ee8fa5;
 }
-::-webkit-scrollbar-thumb{
-    color: var(--pink);
-    
+
+::-webkit-scrollbar {
+    width: 8px;
 }
-::-webkit-scrollbar-track{
-    background: var(--blush);
+
+::-webkit-scrollbar-thumb {
+    background: #ee8fa5;
+    border-radius: 10px;
 }
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fbf1ee;
+}
+
 img {
     max-width: 100%;
     display: block
